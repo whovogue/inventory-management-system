@@ -15,7 +15,7 @@ use App\Filament\Resources\StockPurchaseHistoryResource\Pages;
 class StockPurchaseHistoryResource extends Resource
 {
     protected static ?string $model = StockPurchaseHistory::class;
-    protected static ?string $navigationIcon = 'heroicon-o-document';
+    protected static ?string $navigationIcon = 'heroicon-o-clipboard-document-list';
 
     public static function form(Forms\Form $form): Forms\Form
     {

@@ -15,7 +15,7 @@ use App\Filament\Resources\SoldProductHistoryResource\Pages;
 class SoldProductHistoryResource extends Resource
 {
     protected static ?string $model = SoldProductHistory::class;
-    protected static ?string $navigationIcon = 'heroicon-o-shopping-cart';
+    protected static ?string $navigationIcon = 'heroicon-o-document-text';
 
     public static function form(Forms\Form $form): Forms\Form
     {

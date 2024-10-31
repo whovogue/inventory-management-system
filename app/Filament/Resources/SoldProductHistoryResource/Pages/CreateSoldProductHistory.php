@@ -10,3 +10,4 @@ class CreateSoldProductHistory extends CreateRecord
 {
     protected static string $resource = SoldProductHistoryResource::class;
 }
+
