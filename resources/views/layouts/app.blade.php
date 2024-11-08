@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stocks Report</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}"> <!-- Link to your CSS -->
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon"/>
+
     @livewireStyles
 </head>
 <body>
